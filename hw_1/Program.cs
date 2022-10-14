@@ -3,7 +3,7 @@
 
 //Задача 2: Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
 
-Console.Write("Ведите первое число: ");
+/*Console.Write("Ведите первое число: ");
 int number1 = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Ведите второе число: ");
@@ -19,13 +19,40 @@ else
     Console.WriteLine($"число {number1} меньше");
     Console.WriteLine($"число {number2} больше");
 }
-
+*/
 
 /*a = 5; b = 7 -> max = 7
 a = 2 b = 10 -> max = 10
 a = -9 b = -3 -> max = -3*/
 
 //Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
+
+Console.Write("Ведите первое число: ");
+int firstNum = Convert.ToInt32(Console.ReadLine());
+
+Console.Write("Ведите второе число: ");
+int secondNum = Convert.ToInt32(Console.ReadLine());
+
+Console.Write("Ведите третье число: ");
+int thirdNum = Convert.ToInt32(Console.ReadLine());
+
+int max = firstNum;
+
+if (firstNum > max)
+{
+ max = firstNum;
+}
+if (secondNum > max)
+{
+max = secondNum;
+}
+if (thirdNum > max)
+{
+max = thirdNum;
+}
+
+Console.WriteLine($"число {max} больше");
+
 
 /*2, 3, 7 -> 7
 44 5 78 -> 78
