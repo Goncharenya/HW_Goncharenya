@@ -1,0 +1,15 @@
+/Users/tanya/Documents/HW_Goncharenya/hw_2/bin/Debug/net6.0/hw_2
+/Users/tanya/Documents/HW_Goncharenya/hw_2/bin/Debug/net6.0/hw_2.deps.json
+/Users/tanya/Documents/HW_Goncharenya/hw_2/bin/Debug/net6.0/hw_2.runtimeconfig.json
+/Users/tanya/Documents/HW_Goncharenya/hw_2/bin/Debug/net6.0/hw_2.dll
+/Users/tanya/Documents/HW_Goncharenya/hw_2/bin/Debug/net6.0/hw_2.pdb
+/Users/tanya/Documents/HW_Goncharenya/hw_2/obj/Debug/net6.0/hw_2.csproj.AssemblyReference.cache
+/Users/tanya/Documents/HW_Goncharenya/hw_2/obj/Debug/net6.0/hw_2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tanya/Documents/HW_Goncharenya/hw_2/obj/Debug/net6.0/hw_2.AssemblyInfoInputs.cache
+/Users/tanya/Documents/HW_Goncharenya/hw_2/obj/Debug/net6.0/hw_2.AssemblyInfo.cs
+/Users/tanya/Documents/HW_Goncharenya/hw_2/obj/Debug/net6.0/hw_2.csproj.CoreCompileInputs.cache
+/Users/tanya/Documents/HW_Goncharenya/hw_2/obj/Debug/net6.0/hw_2.dll
+/Users/tanya/Documents/HW_Goncharenya/hw_2/obj/Debug/net6.0/refint/hw_2.dll
+/Users/tanya/Documents/HW_Goncharenya/hw_2/obj/Debug/net6.0/hw_2.pdb
+/Users/tanya/Documents/HW_Goncharenya/hw_2/obj/Debug/net6.0/hw_2.genruntimeconfig.cache
+/Users/tanya/Documents/HW_Goncharenya/hw_2/obj/Debug/net6.0/ref/hw_2.dll
