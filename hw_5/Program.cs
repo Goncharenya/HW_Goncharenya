@@ -18,12 +18,12 @@ void ShowArray(int[] array)
 }
 
 
-Console.Write("Введите количество элементов: ");
-int n = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите минимальное значение элементов: ");
-int min = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите максимальное значение элементов: ");
-int max = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите количество элементов: ");
+// int n = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите минимальное значение элементов: ");
+// int min = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите максимальное значение элементов: ");
+// int max = Convert.ToInt32(Console.ReadLine());
 
 
 
@@ -84,51 +84,30 @@ int GetDiff(int[] Array)
     int minArray = 0;
     int maxArray = 0;
     int diff = 0;
+
     for (int i = 0; i < Array.Length; i++)
     {
-        maxArray = Array[0];
+
         if (Array[i] > maxArray)
         {
             maxArray = Array[i];
-        }  
-    }
-    for (int i = 0; i < Array.Length; i++)
-    {  
-        minArray = Array[0];
+        }
+
         if (Array[i] < minArray)
         {
             minArray = Array[i];
         }
     }
+    
     diff = maxArray - minArray;
 
     return diff;
 }
-//int[] Array = {3, 7, 22, 2, 78};
+int[] Array = {3, 7, 22, 2, 8};
 
-int[] Array = CreateRandomArray(n, min, max);
+//int[] Array = CreateRandomArray(n, min, max);
 ShowArray(Array);
 Console.WriteLine("разница равна: " + GetDiff(Array));
 
 
 
-// [3 7 22 2 78] -> 76
-
-// метод вычисления максимального значения
-// int[] array = {3, 7, 22, 2, 78};
-// int maxElementArray = array[0];
-
-// int GetMinValue(int[] array)
-// {
-//     for (int i = 0; i < array.Length; i++)
-//     {
-//         if (array[i] > maxElementArray)
-//         {
-//             maxElementArray = array[i];
-//         }  
-//     }
-//     return maxElementArray;
-// }
-// //int[] array = {3, 7, 22, 2, 78};
-// ShowArray(array);
-// Console.WriteLine(GetMinValue(array));
