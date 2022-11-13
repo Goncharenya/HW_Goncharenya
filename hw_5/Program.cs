@@ -77,6 +77,8 @@ int max = Convert.ToInt32(Console.ReadLine());
 // [-4, -6, 89, 6] -> 0
 
 // Задача 38: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
+
+
 int GetDiff(int[] Array)
 {
     int minArray = 0;
@@ -111,3 +113,22 @@ Console.WriteLine("разница равна: " + GetDiff(Array));
 
 
 // [3 7 22 2 78] -> 76
+
+// метод вычисления максимального значения
+// int[] array = {3, 7, 22, 2, 78};
+// int maxElementArray = array[0];
+
+// int GetMinValue(int[] array)
+// {
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//         if (array[i] > maxElementArray)
+//         {
+//             maxElementArray = array[i];
+//         }  
+//     }
+//     return maxElementArray;
+// }
+// //int[] array = {3, 7, 22, 2, 78};
+// ShowArray(array);
+// Console.WriteLine(GetMinValue(array));
